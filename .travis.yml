@@ -7,10 +7,7 @@ arch:
     - amd64
     - ppc64le
 
-
-
 install: true
-
 
 sudo: required
 
