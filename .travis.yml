@@ -12,7 +12,8 @@ install: true
 sudo: required
 
 # script for build and release via Travis to Bintray
-script: gradle/buildViaTravis.sh
+script: 
+    - ./gradlew
 
 # Code coverage
 after_success:
