@@ -13,7 +13,7 @@ sudo: required
 
 # script for build and release via Travis to Bintray
 script: 
-    - ./gradlew
+    - ./gradlew build
 
 
 # cache between builds
